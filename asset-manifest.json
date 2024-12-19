@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.507a3381.css",
-    "main.js": "/reactportfolio/static/js/main.170befab.js",
+    "main.js": "/reactportfolio/static/js/main.17749c07.js",
     "static/media/abc_scale.jpg": "/reactportfolio/static/media/abc_scale.ee46ccd05dab37c1e047.jpg",
     "static/media/odoo_dash.png": "/reactportfolio/static/media/odoo_dash.55fdc4b0b146df95b4d1.png",
     "static/media/fitbit-integration.png": "/reactportfolio/static/media/fitbit-integration.8b99d64e86c9f8182366.png",
@@ -15,6 +15,6 @@
   },
   "entrypoints": [
     "static/css/main.507a3381.css",
-    "static/js/main.170befab.js"
+    "static/js/main.17749c07.js"
   ]
 }
