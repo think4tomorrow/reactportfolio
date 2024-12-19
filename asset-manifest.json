@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.507a3381.css",
+    "main.js": "/reactportfolio/static/js/main.170befab.js",
+    "static/media/abc_scale.jpg": "/reactportfolio/static/media/abc_scale.ee46ccd05dab37c1e047.jpg",
+    "static/media/odoo_dash.png": "/reactportfolio/static/media/odoo_dash.55fdc4b0b146df95b4d1.png",
+    "static/media/fitbit-integration.png": "/reactportfolio/static/media/fitbit-integration.8b99d64e86c9f8182366.png",
+    "static/media/abc-evolution.png": "/reactportfolio/static/media/abc-evolution.3aca5248eb70da6d8406.png",
+    "static/media/facebook-integration-v3.png": "/reactportfolio/static/media/facebook-integration-v3.c6505dc14ea912fcba53.png",
+    "static/media/mindbody-integration-v2.png": "/reactportfolio/static/media/mindbody-integration-v2.9d1e58c18ecd8eb32a35.png",
+    "static/media/nokia-health-mate-integration.png": "/reactportfolio/static/media/nokia-health-mate-integration.c5b6eb1a2c438a065f2b.png",
+    "static/media/zapier-integration-v2.png": "/reactportfolio/static/media/zapier-integration-v2.e1f0e6fe955fd92be8e3.png",
+    "static/media/garmin-integration.png": "/reactportfolio/static/media/garmin-integration.ed36db39d30e21e7d157.png",
+    "index.html": "/reactportfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.507a3381.css",
+    "static/js/main.170befab.js"
+  ]
+}
