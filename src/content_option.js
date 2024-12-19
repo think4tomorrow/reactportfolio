@@ -1,38 +1,43 @@
-const logotext = "JOHN";
+const logotext = "RYAN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ryan Chang",
+    description: "I’m Ryan Chang Senior Software Engineer, currently working in Singapore",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Ryan Chang",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I’m excited to bring my versatile skill set to a dynamic and collaborative team where I can keep learning and creating impactful solutions.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: "I'm a Senior Software Engineer with over 8 years of experience building and launching websites and mobile apps. I’ve worked on everything from backend and frontend development to scaling SaaS projects, always focusing on performance and maintainability. Along the way, I’ve delved into blockchain, CMS systems, and even some AI integrations. I’m excited to bring my versatile skill set to a dynamic and collaborative team where I can keep learning and creating impactful solutions.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Senior Software Engineer",
+        where: "ABC Fitness",
+        date: "2022 - 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Miron Communications",
+        date: "2020 - 2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Full Stack Developer",
+        where: "LeapMind Inc",
+        date: "2018 - 2020",
+    },
+    {
+        jobtitle: "Software Engineering Intern",
+        where: "SingSys",
+        date: "2017",
     },
 ];
 
@@ -41,104 +46,129 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Django",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Typescript",
         value: 80,
     },
     {
         name: "React",
-        value: 60,
+        value: 90,
     },
     {
-        name: "Jquery",
+        name: "Vue.js",
+        value: 85,
+    },
+    {
+        name: "C#",
+        value: 75,
+    },
+    {
+        name: "Flutter",
+        value: 85,
+    },
+    {
+        name: "Swift",
+        value: 80,
+    },
+    {
+        name: "Kotlin",
+        value: 70,
+    },
+    {
+        name: "Java",
         value: 85,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I develop mobile apps with user-friendly interfaces and smooth functionality, ensuring a great experience on both Android and iOS.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Applications",
+        description: "I build responsive web applications with intuitive interfaces and seamless functionality, focusing on a smooth user experience across all devices.",
+    },
+    {
+        title: "UI & UX Design",
+        description: "I create user-friendly and visually appealing designs that make websites and apps easy to use and enjoyable for everyone.",
+    },
+    {
+        title: "ERP",
+        description: "I develop and customize ERP systems like Odoo, tailoring solutions to streamline business processes and improve efficiency.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/abc-evolution.png'),
+        description: "Simplicity is the ultimate sophistication.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/facebook-integration-v3.png'),
+        description: "The art of being wise is the art of knowing what to overlook.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/mindbody-integration-v2.png'),
+        description: "Success is the sum of small efforts, repeated day in and day out.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/nokia-health-mate-integration.png'),
+        description: "Don't aim for success if you want it; just do what you love and believe in, and it will come naturally.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/fitbit-integration.png'),
+        description: "Life is really simple, but we insist on making it complicated.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/garmin-integration.png'),
+        description: "The greatest wealth is to live content with little.",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/odoo_dash.png'),
+        description: "What we think, we become.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require('./assets/images/zapier-integration-v2.png'),
+        description: "The most difficult thing is the decision to act; the rest is merely tenacity.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: require('./assets/images/abc_scale.jpg'),
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: require('./assets/images/abc-evolution.png'),
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: require('./assets/images/abc-evolution.png'),
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: require('./assets/images/abc-evolution.png'),
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "for2morrowtech@gmail.com",
+    YOUR_FONE: "+1(469)322-9681",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,9 +177,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/think4tomorrow",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/for2morrow/",
     twitter: "https://twitter.com",
 };
 export {
